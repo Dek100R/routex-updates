@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "9.9.9",
   "url": "https://github.com/Dek100R/routex-updates/raw/main/app-release.apk",
   "notes": "Что нового:\n- Исправлен баг со сканером QR-кодов\n- Улучшен дизайн графиков\n- Повышена стабильность ядра"
 }
