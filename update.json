@@ -1,5 +1,5 @@
 {
-  "version": "1.6.0",
-  "url": "https://github.com/Dek100R/routex-updates/releases/download/v1.6.0/app-release.apk",
-  "notes": "ОБЯЗАТЕЛЬНАЯ ПЕРЕЗАГРУЗКА УСТРОЙСТВА!\n- Что нового:\n- Исправлено туннелирование приложений в ROOT режиме\n- Исправлена работа на некоторых устройствах (Poco F5)"
+  "version": "1.6.1",
+  "url": "https://github.com/Dek100R/routex-updates/releases/download/v1.6.1/app-release.apk",
+  "notes": "ОБЯЗАТЕЛЬНАЯ ПЕРЕЗАГРУЗКА УСТРОЙСТВА!\n- Что нового:\n- Исправлена работа на старых устройствах"
 }
