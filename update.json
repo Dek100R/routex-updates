@@ -1,5 +1,5 @@
 {
-  "version": "1.6.3",
-  "url": "https://github.com/Dek100R/routex-updates/releases/download/v1.6.3/app-release.apk",
-  "notes": "ОБЯЗАТЕЛЬНАЯ ПЕРЕЗАГРУЗКА УСТРОЙСТВА!\n- Что нового:\n- Исправлена работа на старых устройствах"
+  "version": "1.6.4",
+  "url": "https://github.com/Dek100R/routex-updates/releases/download/v1.6.4/app-release.apk",
+  "notes": "ОБЯЗАТЕЛЬНАЯ ПЕРЕЗАГРУЗКА УСТРОЙСТВА!\n- Что нового:\n- Добавлено управление запуска/остановки VPN в ЦУ"
 }
