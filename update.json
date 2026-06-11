@@ -1,5 +1,5 @@
 {
-  "version": "1.7.5",
-  "url": "https://github.com/Dek100R/routex-updates/releases/download/v1.7.5/RouteX-v1.7.5.apk",
-  "notes": "Production OTA update v1.7.5.\n- Updated all app assets and icons.\n- Auto-configured OTA update download from official GitHub release.\n- Safe root / non-root modes connection stability fixes."
+  "version": "1.7.6",
+  "url": "https://github.com/Dek100R/routex-updates/releases/download/v1.7.6/RouteX-v1.7.6.apk",
+  "notes": "Production OTA update v1.7.6.\n- Updated all app assets and icons.\n- Auto-configured OTA update download from official GitHub release.\n- Safe root / non-root modes connection stability fixes."
 }
