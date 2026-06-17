@@ -1,5 +1,5 @@
 {
-  "version": "1.8.3",
-  "url": "https://github.com/Dek100R/routex-updates/releases/download/v1.8.3/RouteX-v1.8.3.apk",
-  "notes": "Production OTA update v1.8.3.\n- Updated all app assets and icons.\n- Auto-configured OTA update download from official GitHub release.\n- Safe root / non-root modes connection stability fixes."
+  "version": "1.8.7",
+  "url": "https://github.com/Dek100R/routex-updates/releases/download/v1.8.7/RouteX-v1.8.7.apk",
+  "notes": "Обновление RouteX v1.8.7.\n- Исправлено отображение системных приложений (таких как Google Play Маркет) в списке приложений для туннелирования."
 }
