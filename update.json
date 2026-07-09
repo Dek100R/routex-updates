@@ -1,5 +1,5 @@
 {
-  "version": "1.10.1",
-  "url": "https://github.com/Dek100R/routex-updates/releases/download/v1.10.1/RouteX-v1.10.1.apk",
-  "notes": "Что нового в RouteX v1.10.1:\n- Исправлено отображение фоновой киберсетки на экране загрузки (InitializationScreen) — теперь она соответствует стандартному виду (размер ячеек 20x20px, цвет var(--grid-line))."
+  "version": "1.11.0",
+  "url": "https://github.com/Dek100R/routex-updates/releases/download/v1.11.0/RouteX-v1.11.0.apk",
+  "notes": "Что нового в RouteX v1.11.0:\n- Ускорен старт, стоп впн.\n- Добавлен информативный виджет для рабочего стола с функцией старт, стоп по тапу.\n- Исправлена работа DNS сервера при выборе в настройках.\n- Другие мелкие исправления"
 }
