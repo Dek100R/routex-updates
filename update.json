@@ -1,7 +1,7 @@
 {
-  "version": "1.12.7",
-  "url": "https://github.com/Dek100R/routex-updates/releases/download/v1.12.7/RouteX-v1.12.7.apk",
-  "pub_date": "2026-07-11T18:54:00.385122+00:00Z",
+  "version": "1.12.8",
+  "url": "https://github.com/Dek100R/routex-updates/releases/download/v1.12.8/RouteX-v1.12.8.apk",
+  "pub_date": "2026-07-11T19:12:41.260440+00:00Z",
   "notes": "Исправлен запуск на некуоторох устройствах. Надеюсь",
   "previous": {
     "version": "1.12.5",
