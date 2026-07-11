@@ -1,8 +1,8 @@
 {
-  "version": "1.12.8",
-  "url": "https://github.com/Dek100R/routex-updates/releases/download/v1.12.8/RouteX-v1.12.8.apk",
-  "pub_date": "2026-07-11T19:12:41.260440+00:00Z",
-  "notes": "Исправлен запуск на некуоторох устройствах. Надеюсь",
+  "version": "1.12.9",
+  "url": "https://github.com/Dek100R/routex-updates/releases/download/v1.12.9/RouteX-v1.12.9.apk",
+  "pub_date": "2026-07-11T19:27:04.952670+00:00Z",
+  "notes": "исправлен UI всплывающего окна блока всего за месяц",
   "previous": {
     "version": "1.12.5",
     "url": "https://github.com/Dek100R/routex-updates/releases/download/v1.12.5/RouteX-v1.12.5.apk"
