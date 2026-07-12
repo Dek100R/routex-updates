@@ -1,10 +1,10 @@
 {
-  "version": "1.13.0",
-  "url": "https://github.com/Dek100R/routex-updates/releases/download/v1.13.0/RouteX-v1.13.0.apk",
-  "pub_date": "2026-07-12T13:18:20.236172+00:00Z",
-  "notes": "исправлен виджет: надпись В месяц и видимость рамки в неактивном состоянии",
+  "version": "1.13.1",
+  "url": "https://github.com/Dek100R/routex-updates/releases/download/v1.13.1/RouteX-v1.13.1.apk",
+  "pub_date": "2026-07-12T13:52:00.458242+00:00Z",
+  "notes": "1. Добавлена полоса открытия приложения в виджет. 2. Изменение дизайна рамки виджета.",
   "previous": {
-    "version": "1.12.5",
-    "url": "https://github.com/Dek100R/routex-updates/releases/download/v1.12.5/RouteX-v1.12.5.apk"
+    "version": "1.12.9",
+    "url": "https://github.com/Dek100R/routex-updates/releases/download/v1.12.9/RouteX-v1.12.9.apk"
   }
 }
