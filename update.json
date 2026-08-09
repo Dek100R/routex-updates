@@ -1,10 +1,10 @@
 {
-  "version": "2.0.0",
-  "url": "https://github.com/Dek100R/routex-updates/releases/download/v2.0.0/RouteX-v2.0.0.apk",
-  "pub_date": "2026-07-17T16:57:03.194253+00:00Z",
-  "notes": "1. Обновлено ядро приложения для поддержки транспорта XHTTP.\n2. Мелкие доработки дизайна.",
+  "version": "2.5.0",
+  "url": "https://github.com/Dek100R/routex-updates/releases/download/v2.5.0/RouteX-v2.5.0.apk",
+  "pub_date": "2026-08-09T18:57:49.000000+00:00Z",
+  "notes": "RouteX v2.5.0 — Унифицированный UI переключателей, улучшенная маршрутизация, стабильность.",
   "previous": {
-    "version": "1.13.2",
-    "url": "https://github.com/Dek100R/routex-updates/releases/download/v1.13.2/RouteX-v1.13.2.apk"
+    "version": "2.1.32",
+    "url": "https://github.com/Dek100R/routex-updates/releases/download/v2.1.32/RouteX-v2.1.32.apk"
   }
 }
