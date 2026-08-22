@@ -19,26 +19,48 @@ jobs:
         run: |
           TAG_NAME="${{ github.event.release.tag_name }}"
           VERSION="${TAG_NAME#v}"
-          
+
           APK_URL=$(echo '${{ toJson(github.event.release.assets) }}' | jq -r '.[] | select(.name | endswith(".apk")) | .browser_download_url' | head -n 1)
-          
+
           if [ -z "$APK_URL" ] || [ "$APK_URL" = "null" ]; then
             echo "Error: No APK asset found in the release!"
             exit 1
           fi
-          
+
           echo "VERSION=$VERSION" >> $GITHUB_ENV
           echo "APK_URL=$APK_URL" >> $GITHUB_ENV
 
       - name: Update update.json
         env:
           RELEASE_BODY: ${{ github.event.release.body }}
+          PUB_DATE: ${{ github.event.release.published_at }}
         run: |
+          # Ссылка на откат. Раньше файл собирался с нуля из трёх полей, и поля
+          # previous и pub_date исчезали при каждом выпуске. Вместе с previous в
+          # приложении пропадала кнопка "Откат на предыдущую версию" — её
+          # приходилось возвращать руками. Теперь прежняя версия из текущего
+          # update.json становится ссылкой отката.
+          PREV=null
+          if [ -f update.json ] && jq -e . update.json >/dev/null 2>&1; then
+            OLD_VER=$(jq -r '.version // empty' update.json)
+            if [ -n "$OLD_VER" ] && [ "$OLD_VER" != "$VERSION" ]; then
+              PREV=$(jq -c '{version: .version, url: .url}' update.json)
+            else
+              # Перевыпуск той же версии: прежний откат не теряем.
+              PREV=$(jq -c '.previous // null' update.json)
+            fi
+          fi
+
           jq -n \
-            --arg ver "${{ env.VERSION }}" \
-            --arg url "${{ env.APK_URL }}" \
+            --arg ver "$VERSION" \
+            --arg url "$APK_URL" \
             --arg notes "$RELEASE_BODY" \
-            '{version: $ver, url: $url, notes: $notes}' > update.json
+            --arg date "$PUB_DATE" \
+            --argjson prev "$PREV" \
+            '{version: $ver, url: $url, notes: $notes, pub_date: $date, previous: $prev}' > update.json
+
+          echo "--- получившийся update.json ---"
+          cat update.json
 
       - name: Commit and Push changes
         run: |
