@@ -1,6 +1,10 @@
 {
-  "version": "2.7.3",
-  "url": "https://github.com/Dek100R/routex-updates/releases/download/v2.7.3/RouteX-v2.7.3.apk",
-  "pub_date": "2026-10-25T17:23:05.441Z",
-  "notes": "RouteX v2.7.3 — защита подписки.\n\n• Приложение проверяет, что подписка выдана RouteX, и принимает узлы только из неё. Подменить подписку или подсунуть чужие узлы больше нельзя.\n• Добавить подписку можно, как и раньше, ссылкой, вставкой из буфера или QR-кодом. Ручной ввод отдельных ключей убран.\n• Восстановление настроек из резервной копии заново загружает узлы из вашей подписки."
+  "version": "2.7.4",
+  "url": "https://github.com/Dek100R/routex-updates/releases/download/v2.7.4/RouteX-v2.7.4.apk",
+  "pub_date": "2026-11-07T13:46:07.142Z",
+  "notes": "RouteX v2.7.4.\n\n• Долгое нажатие на плитку RouteX в шторке теперь открывает приложение, а не настройки «О приложении».",
+  "previous": {
+    "version": "2.7.3",
+    "url": "https://github.com/Dek100R/routex-updates/releases/download/v2.7.3/RouteX-v2.7.3.apk"
+  }
 }
